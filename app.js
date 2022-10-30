@@ -107,10 +107,10 @@ document.addEventListener('DOMContentLoaded',()=>{
             current = theTetrominos[random][currentRotation]
             currentPosition = Math.floor(Math.random()*7)
             displayShape()
-            draw()
             if(layerComplete(19)) {
                 addScore()
             }
+            draw()
         }
     }
 
